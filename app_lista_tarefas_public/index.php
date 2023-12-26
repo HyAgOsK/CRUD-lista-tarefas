@@ -80,6 +80,7 @@
 			}
 
 			function remover(id) {
+				alert('Tarefa', id , 'removida com sucesso')
 				location.href = 'index.php?pag=index&acao=remover&id='+id;
 			}
 
